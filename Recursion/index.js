@@ -24,3 +24,10 @@ function findSumOdd(n) {
 }
 
 // console.log(arr.length-1);
+
+// Problem :4 Find the factorial
+
+function findFactorial(n) {
+  if (n === 0 || n === 1) return 1
+  return n * findFactorial(n - 1)
+}
